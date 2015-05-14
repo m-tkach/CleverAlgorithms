@@ -1,0 +1,16 @@
+*.o
+*.exe
+*log*.*
+*Log*.*
+*.user
+*.stackdump
+
+.settings/
+.cproject
+.project
+
+Debug/
+Release/
+*build*/
+
+
