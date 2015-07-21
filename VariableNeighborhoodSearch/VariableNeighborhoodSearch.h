@@ -26,7 +26,7 @@ public:
 
 
     static Candidate search(const std::vector<std::pair<float, float>>& cities,
-                            const std::vector<int> neighborhoods,
+                            const std::vector<int>& neighborhoods,
                             const int kNoImproveLimit,
                             const int kLsNoImproveLimit);
 };
