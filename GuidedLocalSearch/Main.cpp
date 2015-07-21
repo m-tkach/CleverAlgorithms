@@ -4,12 +4,6 @@
  */
 
 
-/*
- * Filename: Main.cpp
- * Author:   Michael Tkach (x1mike7x@gmail.com)
- */
-
-
 #include <cassert>
 #include <iostream>
 
@@ -68,5 +62,3 @@ int main()
     printResult(berlin52, result);
     return 0;
 }
-
-
