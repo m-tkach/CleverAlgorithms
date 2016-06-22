@@ -110,8 +110,8 @@ void trainWeights(std::vector<float>& weights,
 
 
 size_t testWeights(const std::vector<float>& weights,
-                 const std::vector<std::pair<std::vector<size_t>, size_t>>& domain,
-                 const size_t numInputs)
+                   const std::vector<std::pair<std::vector<size_t>, size_t>>& domain,
+                   const size_t numInputs)
 {
     size_t correct = 0;
     for (const auto& pattern: domain)
